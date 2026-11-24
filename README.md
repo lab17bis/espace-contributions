@@ -16,7 +16,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 
 | Page | Outil | Contenu |
 | --- | --- | --- |
-| **Consultations** | [grist-decision](https://github.com/lab17bis/grist-decision) | Consultations en cours et closes, mur des propositions, dépôt, vote, résultats et suites. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
+| **Consultations** | [grist-consultation](https://github.com/lab17bis/grist-consultation) | Consultations en cours et closes, mur des propositions, dépôt, vote, résultats et suites. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
 | **Formulaire de dépôt** | [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) | Formulaire public pour déposer une proposition sans accès au document. Les propositions arrivent dans la consultation cochée « Reçoit le formulaire public ». |
 | **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Participation et suites données. Page *Régler les indicateurs* pour le modifier. |
 | **Propositions** | tables Grist | Toutes les propositions et leurs soutiens ; page *Votes* pour le détail. Cochez *Masquée* pour retirer un doublon. |
@@ -54,7 +54,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 
 - [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) : questionnaires au DSFR avec logique conditionnelle et notes sur une échelle.
 - [grist-graphique](https://github.com/lab17bis/grist-graphique) : tableaux de bord et indicateurs à seuils au DSFR.
-- [grist-decision](https://github.com/lab17bis/grist-decision) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
+- [grist-consultation](https://github.com/lab17bis/grist-consultation) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
 
 ## Autres espaces
 
