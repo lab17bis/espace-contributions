@@ -2,6 +2,12 @@
 
 Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige, sans casser l'existant.
 
+## 2026-11-26 (correctifs des widgets)
+
+### Corrigé
+- Correctifs des widgets utilisés par cet espace, pris en compte sans rien réinstaller (rechargez la page) :
+  - style commun de configuration (grist-consultation) : il ne masque plus que le badge « Enregistré » sur l'onglet de l'outil.
+
 ## 2026-11-26 (questionnaire et vote public)
 
 ### Modifié
