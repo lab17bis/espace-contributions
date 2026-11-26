@@ -42,6 +42,13 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 
 Les réglages sont enregistrés dans le document. Ils partagent les mêmes réglages d'en-tête et de pied de page.
 
+## Deux façons de voter
+
+- **Vote identifié, dans Grist** : les personnes sont invitées en éditeur et votent dans le widget de la page *Consultations*. Grist inscrit leur adresse sur chaque vote. Pour envoyer directement sur cette page, sans menus Grist, ajoutez `?style=light` à l'adresse de la page.
+- **Vote public par code personnel** : pour des personnes sans compte Grist. Un propriétaire l'active dans *Configurer › Réglages › Vote public contrôlé* du widget (la table `Codes_vote` n'est créée qu'à ce moment), puis diffuse une page de vote : un [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) branché sur la table `Votes`. Le [portail](https://github.com/lab17bis/grist-portail) peut afficher, sous une seule adresse, la page publique de la consultation et cette page de vote.
+
+La page publique du widget, elle, est en lecture seule : elle ne permet pas de voter. Elle masque les propositions cochées *Masquee* et remplace chaque votant par un numéro, mais le partage en lecture publique rend lisibles toutes les tables : posez des règles d'accès avant de diffuser (voir [grist-consultation](https://github.com/lab17bis/grist-consultation)).
+
 ## Données et droits d'accès
 
 Pour déposer et voter, les personnes doivent être invitées **en éditeur**. Les votes portent l'adresse de leur auteur : ils ne sont pas anonymes pour les propriétaires du document, qui voient la table `Votes`. Pour les masquer, ajoutez une règle d'accès sur cette table dans *Permissions avancées*. C'est un outil de consultation, pas de scrutin. Le formulaire public permet seulement **d'ajouter** une proposition.
