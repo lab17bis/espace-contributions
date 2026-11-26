@@ -45,7 +45,7 @@ Les réglages sont enregistrés dans le document. Ils partagent les mêmes régl
 ## Deux façons de voter
 
 - **Vote identifié, dans Grist** : les personnes sont invitées en éditeur et votent dans le widget de la page *Consultations*. Grist inscrit leur adresse sur chaque vote. Pour envoyer directement sur cette page, sans menus Grist, ajoutez `?style=light` à l'adresse de la page.
-- **Vote public par code personnel** : pour des personnes sans compte Grist. Un propriétaire l'active dans *Configurer › Réglages › Vote public contrôlé* du widget (la table `Codes_vote` n'est créée qu'à ce moment), puis diffuse une page de vote : un [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) branché sur la table `Votes`. Le [portail](https://github.com/lab17bis/grist-portail) peut afficher, sous une seule adresse, la page publique de la consultation et cette page de vote.
+- **Vote public identifié** : pour des personnes sans compte Grist. Un propriétaire choisit, consultation par consultation, un niveau d'identification dans *Configurer › Réglages › Identification des votes sur la page publique* du widget : ouvert, courriel déclaré, code commun, code individuel ou compte Grist (la table `Codes_vote` n'est créée qu'à l'activation). Il diffuse ensuite une page de vote : un [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) branché sur la table `Votes`. Le [portail](https://github.com/lab17bis/grist-portail) peut afficher, sous une seule adresse, la page publique de la consultation et cette page de vote. Le détail des niveaux et de leurs limites est dans le README de [grist-consultation](https://github.com/lab17bis/grist-consultation).
 
 La page publique du widget, elle, est en lecture seule : elle ne permet pas de voter. Elle masque les propositions cochées *Masquee* et remplace chaque votant par un numéro, mais le partage en lecture publique rend lisibles toutes les tables : posez des règles d'accès avant de diffuser (voir [grist-consultation](https://github.com/lab17bis/grist-consultation)).
 
@@ -59,7 +59,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 
 ## Widgets utilisés
 
-- [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) : questionnaires au DSFR avec logique conditionnelle et notes sur une échelle.
+- [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) : questionnaires au DSFR avec logique conditionnelle, notes sur une échelle, classement, tableau de choix, médias et options de réponse.
 - [grist-graphique](https://github.com/lab17bis/grist-graphique) : tableaux de bord et indicateurs à seuils au DSFR.
 - [grist-consultation](https://github.com/lab17bis/grist-consultation) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
 
