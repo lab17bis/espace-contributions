@@ -8,7 +8,6 @@ Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige
 - Correctifs des widgets utilisés par cet espace, pris en compte sans rien réinstaller (rechargez la page) :
   - style commun de configuration (grist-consultation) : il ne masque plus que le badge « Enregistré » sur l'onglet de l'outil.
 
-
 ### Ajouté
 - Brancher un outil sur un document qui a déjà ses propres tables (grist-consultation) : si une table du même nom existe sans toutes les colonnes attendues, l'outil le signale et propose de les ajouter, avec le conseil de renommer d'abord une colonne qui porte la même information sous un autre nom. Rien à refaire dans cet espace : ses tables sont complètes.
 
