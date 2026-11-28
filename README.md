@@ -18,7 +18,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | --- | --- | --- |
 | **Consultations** | [grist-consultation](https://github.com/lab17bis/grist-consultation) | Consultations en cours et closes, mur des propositions, dépôt, vote, résultats et suites. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
 | **Formulaire de dépôt** | [grist-questionnaire](https://github.com/lab17bis/grist-questionnaire) | Formulaire public pour déposer une proposition sans accès au document. Les propositions arrivent dans la consultation cochée « Reçoit le formulaire public ». |
-| **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Participation et suites données. Page *Régler les indicateurs* pour le modifier. |
+| **Indicateurs** | [grist-graphique](https://github.com/lab17bis/grist-graphique) | Participation et suites données. Page *Éditeur des indicateurs* pour le modifier. |
 | **Propositions** | tables Grist | Toutes les propositions et leurs soutiens ; page *Votes* pour le détail. Cochez *Masquée* pour retirer un doublon. |
 
 ## L'installer en 2 minutes
@@ -38,7 +38,7 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 
 - **Consultations** : bouton *Nouvelle consultation*, puis onglet *Gérer* de chaque consultation (mode de vote, étape, échéance, visibilité des résultats, critères). Lien *Réglages* en bas du widget pour les types de propositions et les suites possibles.
 - **Formulaire public** : page *Formulaire de dépôt*, puis onglet *Publication* pour obtenir le lien. Cochez *Reçoit le formulaire public* sur une seule consultation.
-- **Indicateurs** : page *Régler les indicateurs*.
+- **Indicateurs** : page *Éditeur des indicateurs*.
 
 Les réglages sont enregistrés dans le document. Ils partagent les mêmes réglages d'en-tête et de pied de page.
 
